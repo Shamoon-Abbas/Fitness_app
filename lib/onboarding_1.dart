@@ -51,7 +51,8 @@ class Onboarding1 extends StatelessWidget {
                   gradient: LinearGradient(
                     colors: [
                       Color(0xFF9DCEFF),
-                      Color(0xFF92A3FD)
+                      Color(0xFF9DCEFF),
+                      Color(0xFF92A3FD),
                     ],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight
