@@ -15,7 +15,7 @@ class Onboarding4 extends StatelessWidget {
             SizedBox(height: 70,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
-              child: Text("Track Your Goal",style: TextStyle(
+              child: Text("Get Burn",style: TextStyle(
                   fontSize: 30,
                   color: Colors.black,
                   fontFamily: 'bold'
@@ -23,7 +23,7 @@ class Onboarding4 extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 15),
-              child: Text("Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals",
+              child: Text("Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
                 style: TextStyle(
                     fontSize: 16,
                     color: Color(0xFF7B6F72),
