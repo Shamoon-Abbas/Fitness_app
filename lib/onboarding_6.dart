@@ -14,7 +14,7 @@ class Onboarding6 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             buildOnboardingImage("assets/images/onboard6.svg"),
-            SizedBox(height: 70,),
+            SizedBox(height: 50,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
               child: Text("Improve Sleep\nQuality",style: TextStyle(
@@ -42,7 +42,7 @@ class Onboarding6 extends StatelessWidget {
                 width: 78,
                 height: 78,
                 child: CircularProgressIndicator(
-                  value: 0.25, // 25% filled (semi-circle would be 0.5, adjust as needed)
+                  value: 1, // 25% filled (semi-circle would be 0.5, adjust as needed)
                   strokeWidth: 3,
                   valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF9DCEFF)),
                   backgroundColor: Colors.transparent,

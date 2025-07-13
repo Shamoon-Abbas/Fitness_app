@@ -42,7 +42,7 @@ class Onboarding4 extends StatelessWidget {
                 width: 78,
                 height: 78,
                 child: CircularProgressIndicator(
-                  value: 0.25, // 25% filled (semi-circle would be 0.5, adjust as needed)
+                  value: 0.5, // 25% filled (semi-circle would be 0.5, adjust as needed)
                   strokeWidth: 3,
                   valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF9DCEFF)),
                   backgroundColor: Colors.transparent,

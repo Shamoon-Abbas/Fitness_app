@@ -16,7 +16,7 @@ class Onboarding5 extends StatelessWidget {
             // Center(child: SvgPicture.asset("assets/images/onboard3.svg",
             //   height: 523,)),
             buildOnboardingImage("assets/images/onboard5.svg"),
-            SizedBox(height: 70,),
+            SizedBox(height: 30,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
               child: Text("Eat Well",style: TextStyle(
@@ -44,7 +44,7 @@ class Onboarding5 extends StatelessWidget {
                 width: 78,
                 height: 78,
                 child: CircularProgressIndicator(
-                  value: 0.25, // 25% filled (semi-circle would be 0.5, adjust as needed)
+                  value: 0.75, // 25% filled (semi-circle would be 0.5, adjust as needed)
                   strokeWidth: 3,
                   valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF9DCEFF)),
                   backgroundColor: Colors.transparent,
