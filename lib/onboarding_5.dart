@@ -10,12 +10,12 @@ class Onboarding5 extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(child: SvgPicture.asset("assets/images/onboard2.svg",
-              height: 485,)),
+            Center(child: SvgPicture.asset("assets/images/onboard3.svg",
+              height: 523,)),
             SizedBox(height: 70,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
-              child: Text("Get Burn",style: TextStyle(
+              child: Text("Eat Well",style: TextStyle(
                   fontSize: 30,
                   color: Colors.black,
                   fontFamily: 'bold'
@@ -23,7 +23,7 @@ class Onboarding5 extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 15),
-              child: Text("Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
+              child: Text("Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun",
                 style: TextStyle(
                     fontSize: 16,
                     color: Color(0xFF7B6F72),
