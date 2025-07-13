@@ -10,7 +10,7 @@ class Onboarding4 extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(child: SvgPicture.asset("assets/images/girl_onboard3.svg",
+            Center(child: SvgPicture.asset("assets/images/onboard2.svg",
               height: 485,)),
             SizedBox(height: 70,),
             Padding(
