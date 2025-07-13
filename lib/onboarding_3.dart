@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 import 'onboarding_4.dart';
+import 'widgets/onborading_image.dart';
 
 class Onboarding3 extends StatelessWidget {
   const Onboarding3({super.key});
@@ -12,8 +13,9 @@ class Onboarding3 extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(child: SvgPicture.asset("assets/images/girl_onboard3.svg",
-          height: 485,)),
+          // Center(child: SvgPicture.asset("assets/images/girl_onboard3.svg",
+          // height: 485,)),
+          buildOnboardingImage("assets/images/onboard3.svg"),
           SizedBox(height: 70,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal:20),
