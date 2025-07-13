@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import 'onboarding_5.dart';
-
-class Onboarding4 extends StatelessWidget {
-  const Onboarding4({super.key});
+class Onboarding5 extends StatelessWidget {
+  const Onboarding5({super.key});
 
   @override
   Widget build(BuildContext context) {
