@@ -50,23 +50,36 @@ class Onboarding1 extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Color(0xFF9DCEFF),
-                      Color(0xFF9DCEFF),
-                      Color(0xFF92A3FD),
+                      Color(0xFFA0CFFF), // LEFT
+                      Color(0xFF889DFF), // RIGHT
                     ],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight
                   ),
                   borderRadius: BorderRadius.circular(100)
                 ),
-                child: ElevatedButton(onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding2()));
-                }, child: Text("Get Started",style: TextStyle(
-                  fontFamily: 'semiBold',
-                  fontSize: 20,
-                  color: Colors.white
-                ),),
-                style: ElevatedButton.styleFrom(backgroundColor: Colors.transparent),),
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding2()));
+                  },
+                  child: Text(
+                    "Get Started",
+                    style: TextStyle(
+                      fontFamily: 'semiBold',
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.transparent,
+                    shadowColor: Colors.transparent, // removes elevation shadow
+                    surfaceTintColor: Colors.transparent,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                  ),
+                ),
+
               ),
             )
           ],

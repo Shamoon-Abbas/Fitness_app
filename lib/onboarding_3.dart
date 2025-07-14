@@ -15,12 +15,12 @@ class Onboarding3 extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          buildOnboardingImage("assets/images/onboard4.svg"),
+          buildOnboardingImage("assets/images/onboard3.svg"),
           SizedBox(height: 70),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Text(
-              "Get Burn",
+              "Track Your Goal",
               style: TextStyle(
                 fontSize: 30,
                 color: Colors.black,
@@ -31,7 +31,7 @@ class Onboarding3 extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             child: Text(
-              "Let’s keep burning, to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever",
+              "Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals",
               style: TextStyle(
                 fontSize: 16,
                 color: Color(0xFF7B6F72),
