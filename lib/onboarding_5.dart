@@ -1,3 +1,4 @@
+import 'package:fitness_app/widgets/onboarding_FAB.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -37,25 +38,12 @@ class Onboarding5 extends StatelessWidget {
 
           ],
         ),
-        floatingActionButton: Stack(
-            alignment: Alignment.center,
-            children: [
-              SizedBox(
-                width: 78,
-                height: 78,
-                child: CircularProgressIndicator(
-                  value: 0.75, // 25% filled (semi-circle would be 0.5, adjust as needed)
-                  strokeWidth: 3,
-                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF9DCEFF)),
-                  backgroundColor: Colors.transparent,
-                ),
-              ),Container(height: 65,width: 65,
-                child: FloatingActionButton(onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Onboarding6()));
-                },child: Icon(Icons.arrow_forward_ios_rounded,color: Colors.white,size: 20),backgroundColor: Color(0xFF543753),shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(40)),),
-              ),
-            ]
-        )
+      floatingActionButton: gradientFAB(
+        progressValue: 0.75, // 75% for onboarding screen 3
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding6()));
+        },
+      ),
     );
   }
 }
