@@ -2,11 +2,11 @@ import 'package:fitness_app/widgets/onboarding_FAB.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import 'onboarding_5.dart';
-import 'widgets/onborading_image.dart';
+import 'onboarding_1.dart';
+import '../widgets/onborading_image.dart';
 
-class Onboarding4 extends StatelessWidget {
-  const Onboarding4({super.key});
+class Onboarding6 extends StatelessWidget {
+  const Onboarding6({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,11 +14,11 @@ class Onboarding4 extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            buildOnboardingImage("assets/images/onboard4.svg"),
-            SizedBox(height: 70,),
+            buildOnboardingImage("assets/images/onboard6.svg"),
+            SizedBox(height: 50,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
-              child: Text("Get Burn",style: TextStyle(
+              child: Text("Improve Sleep\nQuality",style: TextStyle(
                   fontSize: 30,
                   color: Colors.black,
                   fontFamily: 'bold'
@@ -26,7 +26,7 @@ class Onboarding4 extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 15),
-              child: Text("Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
+              child: Text("Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning",
                 style: TextStyle(
                     fontSize: 16,
                     color: Color(0xFF7B6F72),
@@ -37,9 +37,9 @@ class Onboarding4 extends StatelessWidget {
           ],
         ),
       floatingActionButton: gradientFAB(
-        progressValue: 0.5, // 75% for onboarding screen 3
+        progressValue: 1, // 75% for onboarding screen 3
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding5()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding1()));
         },
       ),
     );

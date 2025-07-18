@@ -2,9 +2,10 @@ import 'package:fitness_app/widgets/onboarding_FAB.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+
 import 'onboarding_4.dart';
 import 'onboarding_5.dart';
-import 'widgets/onborading_image.dart';
+import '../widgets/onborading_image.dart';
 
 class Onboarding3 extends StatelessWidget {
   const Onboarding3({super.key});

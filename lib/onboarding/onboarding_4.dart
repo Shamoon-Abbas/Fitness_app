@@ -2,11 +2,12 @@ import 'package:fitness_app/widgets/onboarding_FAB.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import 'onboarding_6.dart';
-import 'widgets/onborading_image.dart';
+import '../widgets/onborading_image.dart';
+import 'onboarding_5.dart';
 
-class Onboarding5 extends StatelessWidget {
-  const Onboarding5({super.key});
+
+class Onboarding4 extends StatelessWidget {
+  const Onboarding4({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,13 +15,11 @@ class Onboarding5 extends StatelessWidget {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Center(child: SvgPicture.asset("assets/images/onboard3.svg",
-            //   height: 523,)),
-            buildOnboardingImage("assets/images/onboard5.svg"),
-            SizedBox(height: 30,),
+            buildOnboardingImage("assets/images/onboard4.svg"),
+            SizedBox(height: 70,),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal:20),
-              child: Text("Eat Well",style: TextStyle(
+              child: Text("Get Burn",style: TextStyle(
                   fontSize: 30,
                   color: Colors.black,
                   fontFamily: 'bold'
@@ -28,7 +27,7 @@ class Onboarding5 extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 15),
-              child: Text("Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun",
+              child: Text("Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
                 style: TextStyle(
                     fontSize: 16,
                     color: Color(0xFF7B6F72),
@@ -39,9 +38,9 @@ class Onboarding5 extends StatelessWidget {
           ],
         ),
       floatingActionButton: gradientFAB(
-        progressValue: 0.75, // 75% for onboarding screen 3
+        progressValue: 0.5, // 75% for onboarding screen 3
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding6()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Onboarding5()));
         },
       ),
     );
