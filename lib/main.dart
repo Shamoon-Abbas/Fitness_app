@@ -1,3 +1,4 @@
+import 'package:fitness_app/signup_and_login/signup_login_1.dart';
 import 'package:flutter/material.dart';
 
 import 'onboarding/onboarding_1.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Onboarding1(),
+      home: SignupLogin1(),
     );
   }
 }
